@@ -13,11 +13,10 @@
 
     <div id="app">
 
-        <ol>
+        <ol v-if="Mail_List.length==10">
             <li v-for="mail in Mail_List">{{mail}}</li>
         </ol>
 
-        </ul>
    
     </div>
 
